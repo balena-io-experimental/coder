@@ -22,5 +22,10 @@ Utility for transfering the coder image to an SD Card
 #### findcoder-appengine
 EXPERIMENTAL: A status server that can be run to help locate multiple Coder devices in a classroom scenario
 
-
-        
+## Installing on resin.io
+1. Sign up at https://alpha.resin.io/signup and follow the instructions to install resin on your Rasberry Pi.
+2. Push this repository to your resin application.
+3. Add an environment variable called PORT and set it to the port you want to access Coder on.
+4. Go to https://$(RASPBERY_PI_IP):$(PORT)
+5. ???
+6. PROFIT
